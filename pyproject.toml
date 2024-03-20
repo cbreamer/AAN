@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aan"
+version = "0.1.0"
+description = ""
+authors = ["Courtney Reamer <cbreamer7@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.32.2"
+openai = "^1.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
